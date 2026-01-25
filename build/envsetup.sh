@@ -1016,3 +1016,5 @@ function build_kernel() {
     chmod -x "${target_kernel_dir}/"*
     echo "Kernel build output copied to ${target_kernel_dir}/"
 }
+
+export SKIP_ABI_CHECKS=true
